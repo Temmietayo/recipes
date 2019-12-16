@@ -1,0 +1,42 @@
+.img-section img {
+    height: 200px;
+    width: 100%;
+}
+
+.card-view {
+    margin: 30px auto;
+    background: #eee;
+    width: 390px;
+    border-radius: 4px;
+}
+
+.name-section {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.card-view a {
+    margin: 7px;
+}
+
+.card-view .button-section a {
+    color: #CCC;
+}
+
+.card-view a.delete:hover {
+    color: #ff3b3b;
+}
+
+.card-view a.update:hover {
+    color: #17dd8b;
+}
+
+.ing-section {
+    padding: 20px 20px 0 20px;
+}
+
+.button-section {
+    justify-content: flex-start;
+    margin: 0 20px;
+    padding-bottom: 20px;
+}

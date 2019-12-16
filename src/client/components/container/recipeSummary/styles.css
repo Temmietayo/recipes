@@ -1,0 +1,18 @@
+.recipe-summary {
+    border: 1px solid black;
+}
+
+.recipe-image {
+    width: 200px;
+    height: 200px;
+}
+
+.review {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.review a:hover {
+    background: #eee;
+    color: #42a5f5;
+}

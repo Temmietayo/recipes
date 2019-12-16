@@ -1,0 +1,134 @@
+.jumbotron {
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 30px;
+    background: url(../../../../assets/chef.svg) no-repeat;
+    background-size: cover;
+    height: 350px;
+    border: 2px solid #e9a1f3;
+}
+
+.jumbotron p:first-child {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.jumbotron p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 3px;
+}
+
+.search {
+    margin: 0px auto;
+    width: 90%;
+}
+
+.recipe {
+    margin: 10px auto;
+    width: 90%;
+}
+
+.right-side {
+    width: 20%;
+}
+
+.first-half {
+    width: 30%;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.second-half {
+    width: 50%;
+}
+
+.second-half input {
+    margin: 5px auto;
+    width: 500px;
+    height: 30px;
+    background: #e0e0e0;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.second-half i {
+    margin: 0px auto;
+}
+
+.third-half {
+    width: 20%;
+}
+
+.third-half p {
+    background: black;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+.third-half select {
+    background: black;
+    border: none;
+    color: #ffffff;
+    width: fit-content;
+    padding: 5px;
+}
+
+.one-half {
+    width: 30%;
+}
+
+.one-half p {
+    margin: 3px;
+    font-weight: 700;
+}
+
+.two-half {
+    width: 70%;
+}
+
+.recipe-img {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.recipe-div {
+    text-align: center;
+}
+
+.recipe-div p {
+    text-align: center;
+    font-weight: 700;
+}
+
+:root {
+    --star-size: 30px;
+    --star-color: #fff;
+    --star-background: #fc0;
+}
+
+.Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Times;
+    line-height: 1;
+}
+
+.Stars::before {
+    content: '★★★★★';
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
