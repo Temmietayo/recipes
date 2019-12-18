@@ -1,0 +1,78 @@
+.main-body {
+    background: whitesmoke;
+}
+
+.personal-details {
+    background: #fff;
+    height: 80%;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+.other-details {
+    height: 80%;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.col-lg-size {
+    width: 20%;
+}
+
+.profile-img {
+    height: 50%;
+    margin: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.contact-details {
+    height: 25%;
+    margin: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.contact-details span {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 3px;
+}
+
+.help-details {
+    height: 25%;
+    margin: 10px;
+}
+
+.help-details span {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 3px;
+}
+
+.profile-navbar {
+    height: 12%;
+    border-bottom: 2px solid black;
+    width: 100%;
+    overflow: hidden;
+}
+
+.profile-navbar li:hover {
+    background-color: #ddd;
+}
+
+.user-img {
+    height: 95%;
+}
+
+
+/* Create an active/current tablink class */
+
+.profile-navbar li.active {
+    background-color: #ccc;
+}
+
+.navbar-item {
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 15px;
+}

@@ -1,18 +1,25 @@
-.recipe-summary {
-    border: 1px solid black;
+.recipez-summary {
+    border: 1px solid #ddd;
+    width: 90%;
+    height: 80px;
+    margin: 10px;
 }
 
-.recipe-image {
-    width: 200px;
-    height: 200px;
+.recipez-summary:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
 }
 
-.review {
-    margin-left: 20px;
-    margin-right: 20px;
+.recipezz-img {
+    width: 30%;
+    height: 70px;
+    border-radius: 0px;
+    margin: 5px;
 }
 
-.review a:hover {
-    background: #eee;
-    color: #42a5f5;
+.recipe-name {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    color: black;
 }

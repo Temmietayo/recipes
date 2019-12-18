@@ -29,7 +29,7 @@ class CreateRecipe extends Component {
     event.preventDefault();
     //console.log(this.state);
     this.props.createRecipe(this.state);
-    this.props.history.push('/dashboard');
+    this.props.history.push('/user/profile');
   };
   render() {
     const { auth } = this.props;
